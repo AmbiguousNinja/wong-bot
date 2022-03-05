@@ -29,6 +29,8 @@ async def on_message(message):
         await message.channel.send("I'm sorry I didn't understand that. Did you mean: https://abbeypartyrentals.com/images/stories/virtuemart/product/trash_with_liner.jpg")
     elif "nico" in msg_clean.split(" "):
         await message.channel.send("How about nico nico no?")
+    elif "nana" in msg_clean.split(" "):
+        await message.channel.send("https://64.media.tumblr.com/ff27fbde60837edb3596ff31424b4ee4/afbb96a6f0cb6227-5f/s1280x1920/86051a9723f25e9d2d42f2d301bd67a39d45975a.png")
 
 @client.event
 async def on_member_join(member):
